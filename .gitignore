@@ -1,7 +1,6 @@
 node_modules/
 dist/
 target/
-.env
 *.js.map
 *.db
 *.db-shm
@@ -9,5 +8,12 @@ target/
 
 coverage/
 .DS_Store
+
+# Rust build artifacts
+**/target/
 playwright-report/
 test-results/
+
+# Testnet contract farm output (deploy + gas + report artifacts)
+smart-contracts/testnet-farm-output/
+config.bat
