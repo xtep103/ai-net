@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feat/476-notification-system",
+    "main",
+    "origin",
+    "refactor/project-structure",
+    "revert-84-feat/soroban-agent-registry-contract"
+  ],
+  "parent": {
+    "feat/476-notification-system": "main",
+    "main": null,
+    "origin": "main",
+    "refactor/project-structure": "main",
+    "revert-84-feat/soroban-agent-registry-contract": "main"
+  },
+  "order": [
+    "main",
+    "feat/476-notification-system",
+    "origin",
+    "refactor/project-structure",
+    "revert-84-feat/soroban-agent-registry-contract"
+  ]
+}
